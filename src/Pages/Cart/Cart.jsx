@@ -68,7 +68,8 @@ const Cart = () => {
                 </Box>
                 <Stack direction="row" spacing={2}>
                   <Button
-                    variant="contained"
+                    color="error"
+                    variant="outlined"
                     onClick={() => {
                       const arr = [...cart];
                       arr.splice(i, 1);

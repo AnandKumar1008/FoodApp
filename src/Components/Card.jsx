@@ -78,31 +78,34 @@ function Media(props) {
                 spacing={2}
                 sx={{ justifyContent: "center", fontFamily: "var(--font-a)" }}
               >
-                <Button
-                  variant="contained"
-                  sx={{ fontFamily: "var(--font-a)" }}
-                  onClick={() => {
-                    const check = cart.findIndex((e) => e.id == item.id);
-
-                    if (check != -1) {
-                      // if (isCart) {
-                      const arr = [...cart];
-                      arr.splice(check, 1);
-                      setCart(arr);
-                      // }
-                      return;
-                    }
-                    setCart((p) => [{ ...item, quantity: 1 }, ...p]);
-                  }}
-                >
-                  {cart.some((recipe) => recipe.id === item.id)
-                    ? "Remove From Cart"
-                    : "Add To Cart"}
-                </Button>
+                {cart.some((recipe) => recipe.id === item.id) ? (
+                  <Button
+                    color="error"
+                    variant="outlined"
+                    sx={{ fontFamily: "var(--font-a)" }}
+                    onClick={() => {
+                      const check = cart.findIndex((e) => e.id == item.id);
+                      if (check != -1) {
+                        const arr = [...cart];
+                        arr.splice(check, 1);
+                        setCart(arr);
+                      }
+                    }}
+                  >
+                    Remove From Cart
+                  </Button>
+                ) : (
+                  <Button
+                    variant="contained"
+                    sx={{ fontFamily: "var(--font-a)" }}
+                    onClick={() => {
+                      setCart((p) => [{ ...item, quantity: 1 }, ...p]);
+                    }}
+                  >
+                    Add To Cart
+                  </Button>
+                )}
               </Stack>
-              {/* <Typography variant="caption" color="text.secondary">
-                  {`${item.views} • ${item.createdAt}`}
-                </Typography> */}
             </Box>
           ) : (
             <Box sx={{ pt: 0.5 }}>
