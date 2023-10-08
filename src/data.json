@@ -1,0 +1,82 @@
+[
+    {
+        "readyInMinutes": 30,
+        "sourceUrl": "http://fullbellysisters.blogspot.com/2012/01/cauliflower-fried-rice-more-veggies.html",
+        "image": "cauliflower-brown-rice-and-vegetable-fried-rice-716426.jpg",
+        "servings": 8,
+        "id": 716426,
+        "title": "Cauliflower, Brown Rice, and Vegetable Fried Rice"
+    },
+    {
+        "readyInMinutes": 20,
+        "sourceUrl": "http://fullbellysisters.blogspot.com/2011/03/asparagus-and-pea-soup-real-convenience.html",
+        "image": "asparagus-and-pea-soup-real-convenience-food-716406.jpg",
+        "servings": 2,
+        "id": 716406,
+        "title": "Asparagus and Pea Soup: Real Convenience Food"
+    },
+    {
+        "readyInMinutes": 25,
+        "sourceUrl": "http://www.foodista.com/recipe/BDRS2JZG/corn-avocado-salsa",
+        "image": "Corn-Avocado-Salsa-640062.jpg",
+        "servings": 2,
+        "id": 640062,
+        "title": "Corn Avocado Salsa"
+    },
+    {
+        "readyInMinutes": 45,
+        "sourceUrl": "http://foodandspice.blogspot.com/2016/08/spicy-black-eyed-pea-curry-with-swiss.html",
+        "image": "spicy-black-eyed-pea-curry-with-swiss-chard-and-roasted-eggplant-798400.jpg",
+        "servings": 6,
+        "id": 798400,
+        "title": "Spicy Black-Eyed Pea Curry with Swiss Chard and Roasted Eggplant"
+    },
+    {
+        "readyInMinutes": 45,
+        "sourceUrl": "http://foodandspice.blogspot.com/2016/02/quinoa-salad-with-vegetables-and-cashews.html",
+        "image": "quinoa-salad-with-vegetables-and-cashews-782600.jpg",
+        "servings": 6,
+        "id": 782600,
+        "title": "Quinoa Salad with Vegetables and Cashews"
+    },
+    {
+        "readyInMinutes": 45,
+        "sourceUrl": "http://www.foodista.com/recipe/K2BYJP76/strawberry-mango-quinoa-salad",
+        "image": "Strawberry-Mango-Quinoa-Salad-661925.jpg",
+        "servings": 4,
+        "id": 661925,
+        "title": "Strawberry-Mango Quinoa Salad"
+    },
+    {
+        "readyInMinutes": 45,
+        "sourceUrl": "http://www.pinkwhen.com/homemade-guacamole-recipe/",
+        "image": "homemade-guacamole-715543.jpg",
+        "servings": 4,
+        "id": 715543,
+        "title": "Homemade Guacamole"
+    },
+    {
+        "readyInMinutes": 45,
+        "sourceUrl": "http://foodandspice.blogspot.com/2012/07/spicy-hummus-indian-style.html",
+        "image": "spicy-indian-style-hummus-716195.jpg",
+        "servings": 12,
+        "id": 716195,
+        "title": "Spicy Indian-Style Hummus"
+    },
+    {
+        "readyInMinutes": 45,
+        "sourceUrl": "http://www.foodista.com/recipe/WMHFXKKF/vegetable-dip",
+        "image": "Vegetable-Dip-664547.jpg",
+        "servings": 3,
+        "id": 664547,
+        "title": "Vegetable Dip"
+    },
+    {
+        "readyInMinutes": 45,
+        "sourceUrl": "https://www.foodista.com/recipe/FKQCYKYR/curried-butternut-squash-and-apple-soup",
+        "image": "Curried-Butternut-Squash-and-Apple-Soup-641057.jpg",
+        "servings": 1,
+        "id": 641057,
+        "title": "Curried Butternut Squash and Apple Soup"
+    }
+]

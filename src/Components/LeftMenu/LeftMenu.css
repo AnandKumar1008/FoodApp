@@ -1,0 +1,31 @@
+.food-leftmenu_top_icon {
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  position: fixed;
+  width: 15rem;
+  top: 0;
+  background-color: white;
+  height: 100vh;
+  transform: translateX(-100%);
+  box-shadow: 1px;
+  transition: transform 0.3s ease-in-out;
+}
+.food-leftmenu_top_icon.visible {
+  transform: translateX(0);
+}
+.food-leftmenu_icon {
+  cursor: pointer;
+}
+
+.food-leftmenu {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: start;
+  z-index: 200;
+  padding: 3rem 0;
+}
+.food-leftmenu li {
+  padding: 0.1rem 2rem;
+  cursor: pointer;
+}

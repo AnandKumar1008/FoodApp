@@ -1,0 +1,12 @@
+.food-home {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.food-home_card {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 3rem 3rem;
+  width: 100%;
+}

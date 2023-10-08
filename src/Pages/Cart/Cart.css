@@ -1,0 +1,44 @@
+.food-cart {
+  width: 100%;
+  margin-top: 3rem;
+  /* display: flex;
+  flex-direction: row;
+  align-items: center; */
+}
+.food-cart_cover {
+  padding: 2rem;
+  width: 100%;
+}
+.food-cart_cover table {
+  width: 100%;
+  border-collapse: collapse;
+  /* Merge borders into a single border */
+  width: 100%; /* Make the table fill its container */
+  /* border: 1px solid #000; */
+}
+.food-cart_cover table tr {
+  display: flex;
+}
+.food-cart_cover table tr > * {
+  flex: 1;
+}
+.food-cart_cover table th {
+  background-color: var(--color-nav-bg);
+  padding: 0.25rem;
+}
+.food-cart_cover table th,
+.food-cart_cover table td {
+  border: 1px solid #ada3a3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  z-index: 0;
+  /* Set borders for table header and data cells */
+  /* padding: 8px;  */
+  /* Add padding for better spacing */
+}
+.food-cart_cover table td p {
+  text-align: start;
+}
